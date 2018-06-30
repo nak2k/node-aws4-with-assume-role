@@ -1,0 +1,32 @@
+{
+  "name": "aws4-with-assume-role",
+  "version": "0.0.1",
+  "description": "aws4 with assume role",
+  "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/nak2k/node-aws4-with-assume-role/issues"
+  },
+  "dependencies": {
+    "aws4": "^1.7.0",
+    "ini": "^1.3.5"
+  },
+  "devDependencies": {
+    "tape": "^4.9.1"
+  },
+  "homepage": "https://github.com/nak2k/node-aws4-with-assume-role",
+  "keywords": [],
+  "license": "MIT",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nak2k/node-aws4-with-assume-role.git"
+  },
+  "scripts": {
+    "prepublishOnly": "npm test",
+    "test": "tape test/test*.js"
+  },
+  "files": [
+    "README.md",
+    "lib/"
+  ]
+}
