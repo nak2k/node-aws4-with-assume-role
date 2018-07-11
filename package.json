@@ -15,7 +15,11 @@
     "tape": "^4.9.1"
   },
   "homepage": "https://github.com/nak2k/node-aws4-with-assume-role",
-  "keywords": [],
+  "keywords": [
+    "aws",
+    "aws4",
+    "signature"
+  ],
   "license": "MIT",
   "main": "lib",
   "repository": {
