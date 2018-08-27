@@ -35,8 +35,11 @@ makeSigner({
 ## makeSigner([options, ]callback)
 
 - `options.profile`
+    - A name of a profile that gets a credential.
 - `options.region`
+    - A target region to which an request calls.
 - `callback(err, sign)`
+    - A function that is called when a signer function has made or an error occurs.
 
 ## License
 
