@@ -18,3 +18,21 @@ test('test', t => {
     t.equal(typeof options.headers, 'object');
   });
 });
+
+test('test', t => {
+  const { ROLE_ARN } = process.env;
+
+  t.plan(3);
+
+  makeSigner({}, (err, sign) => {
+    sign({
+      service: 's3',
+      path: '/',
+      signQuery: true,
+    }, { roleArn: ROLE_ARN }, (err, options) => {
+      t.error(err);
+      t.equal(typeof options.service, 'string');
+      t.equal(typeof options.headers, 'object');
+    });
+  });
+});
