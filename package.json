@@ -10,7 +10,7 @@
     "arn2": "^0.1.1",
     "aws4": "^1.7.0",
     "ini": "^2.0.0",
-    "proxy-agent": "^4.0.1",
+    "proxy-agent": "^5.0.0",
     "xml2js": "^0.4.19"
   },
   "devDependencies": {
